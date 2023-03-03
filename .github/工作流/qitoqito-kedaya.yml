@@ -28,7 +28,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: kedaya-qitoqito-kedaya
+    types: sync-qitoqito-kedaya
 jobs:
   repo-sync:
     env:
