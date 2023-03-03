@@ -40,8 +40,8 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: FangDoudouY
-        uses: FangDoudouY/Backup_push@v2
+      - name: sync qitoqito-kedaya
+        uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
           source_repo: "https://github.com/qitoqito/kedaya.git"
